@@ -1,4 +1,4 @@
-// Code by @AryToNeX @SantX
+// Code by @AryToNeX
 
 const int motorA = 2;
 const int motorB = 3;
