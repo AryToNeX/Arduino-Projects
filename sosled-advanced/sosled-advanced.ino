@@ -1,4 +1,6 @@
-int LED = 13;
+// Created by @AryToNeX & @SantX27
+
+const int LED = 13;
 
 void setup(){
   pinMode(LED, OUTPUT);
