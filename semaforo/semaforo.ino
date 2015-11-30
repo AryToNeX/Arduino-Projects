@@ -90,10 +90,10 @@ void setup() {
 
 void loop() {
   while(ServiceDeterminator = 0){ // Semafori in servizio
-    while(CrossMode = false){ // Modalità normale
+    if(CrossMode = false){ // Modalità normale
       serviceNormal();
     }
-    while(CrossMode = true){ // Modalità parallela
+    if(CrossMode = true){ // Modalità parallela
       serviceCross();
     }
   }
