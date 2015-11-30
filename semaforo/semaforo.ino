@@ -93,7 +93,7 @@ void loop() {
     if(CrossMode = false){ // Modalità normale
       serviceNormal();
     }
-    if(CrossMode = true){ // Modalità parallela
+    else if(CrossMode = true){ // Modalità parallela
       serviceCross();
     }
   }
